@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mit4</title>
+    <link rel="stylesheet" href="mit.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Add contact</h1>
+        <form id="contact-form">
+            <br><label>Name :</label>
+            <br> <br><input type="text" name="name" id="contact-input">
+            <br><br><label>Email address :</label>
+            <br><br><input type="email" name="email" id="contact-input">
+
+        </form>
+        <div>
+            <br><button onclick="storedDetails()">Submit</button>
+            <br><br><button onclick="storedDetails()">Delete</button>
+        </div>
+        <ul id="contact-details"></ul>
+    </div>
+    <script src="mit.js"></script>
+</body>
+
+</html>
